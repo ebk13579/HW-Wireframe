@@ -1,8 +1,21 @@
 body {
-    background: green
+    background: green;
+}
+h1{
+}
+nav{
 }
 
-.bark
-{
-    font-style: italic
+section{
+    float:left; width: 15em;
+}
+/* p{
+    float: right;
+} */
+aside{
+    float: center;
+}
+.bark{
+    float: right;
+    font-style: italic;
 }
