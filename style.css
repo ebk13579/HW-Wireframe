@@ -1,21 +1,36 @@
 body {
-    background: green;
+    color: '#777';,
+    background: '#ebebeb';
 }
-h1{
+.hone{
+    text-align: center;
 }
 nav{
-}
-
-section{
-    float:left; width: 15em;
-}
-/* p{
-    float: right;
-} */
-aside{
-    float: center;
-}
-.bark{
-    float: right;
+    font-family: Courier;
+    color: red;
+    font-size: 40px; 
     font-style: italic;
 }
+section{
+    float: left;
+    width: 495px;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+.side{
+    float: right;
+    width: 495px;
+    background: blueviolet;
+}
+.bark{
+    font-style: italic;
+}
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    background:red;
+ }
