@@ -19,10 +19,15 @@ p{
     font-family: 'Courier New', Courier, monospace;
     color: red;
 }
+/* Why does .Paragraph render, but p does not? */
+.Paragraph{
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
 .side{
     float: right;
     width: 495px;
-    background: blueviolet;
+    background: beige;
 }
 .bark{
     font-style: italic;
@@ -31,6 +36,6 @@ footer {
     position:absolute;
     bottom:0;
     width:100%;
-    height:60px;   /* Height of the footer */
+    height:60px;
     background:red;
  }
