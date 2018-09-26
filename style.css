@@ -1,5 +1,5 @@
 body {
-    color: '#777';,
+    color: '#777';
     background: '#ebebeb';
 }
 .hone{
@@ -23,6 +23,7 @@ p{
 .Paragraph{
     font-family: 'Courier New', Courier, monospace;
     color: red;
+    text-align: center;
 }
 .side{
     float: right;
